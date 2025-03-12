@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e6e6fa;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: #00008b;
+}
+
+marquee{
+    text-align: center;
+    color: #00008b;
+    font-size: 25px;
+    margin-top: -100px;
+}
+#game {
+    width: 120%;
+    max-width: 1500px;
+    height: calc(100vh - 30px); /* Adjust the height to account for the marquee margin */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
