@@ -1,3 +1,4 @@
+/*root game attribute */
 *{
     margin: 0;
     padding: 0;
@@ -5,12 +6,12 @@
     background-color: #e6e6fa;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+/* title attributes */
 h1{
     text-align: center;
     color: #00008b;
 }
-
+/* marquee attributes */
 marquee{
     text-align: center;
     color: #00008b;
@@ -20,7 +21,7 @@ marquee{
 #game {
     width: 120%;
     max-width: 1500px;
-    height: calc(100vh - 30px); /* Adjust the height to account for the marquee margin */
+    height: calc(100vh - 30px); /* height of marquee */
     display: flex;
     justify-content: center;
     align-items: center;
