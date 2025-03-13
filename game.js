@@ -37,7 +37,7 @@ class mainScene {
             immovable: true,
             allowGravity: false
         });
-        for (let i = 0; i < 6; i++) {
+        for (let i = 0; i < 17; i++) {
             let obstacle = this.obstacles.create(
                 Phaser.Math.Between(100, this.game.config.width - 100),
                 Phaser.Math.Between(100, this.game.config.height - 100),
